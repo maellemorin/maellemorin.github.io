@@ -1,0 +1,10 @@
+#image1 {
+  position: relative;
+    left: 100px;
+    top: 60px;
+}
+
+#info {
+  text-align: right;
+  padding-left: 150px;
+}

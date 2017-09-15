@@ -115,8 +115,6 @@ margin: auto;
   display: block;
   text-align: right;
   margin-right: 50px;
-  margin-top: -250px;
-  margin-bottom: 200px;
   font-family: "Lato";
   font-weight:100;
   font-size: 40px;
@@ -125,7 +123,11 @@ margin: auto;
 }
 
 #graphicDesign h2 {
-  margin-top: -100px;
+  margin-top: -150px;
+}
+
+#programming h2 {
+  margin-top: -150px;
 }
 
 #work_sections {
@@ -151,46 +153,45 @@ margin: auto;
 
 }
 
+.slide {
+  padding-top: 60px;
+}
+
 #graphicDesign {
 background-color: #485162;
 text-align: center;
   }
 
-#graphicDesign  div.gallery {
+  div.gallery {
       margin: 5px;
-      /*border: 1px solid #ccc;*/
       float: left;
       padding-left: 35px;
-        /*padding: 0 2px;
-      float: left;
-      width: 22.99999%;*/
   }
 
-#graphicDesign div.gallery:hover {
-    /*border: 1px solid #777;*/
+ div.gallery:hover {
+    border: 1px solid #777;
 }
 
-#graphicDesign div.gallery img {
+div.gallery img {
     width: 100%;
     height: auto;
 }
 
-#graphicDesign .responsive {
+.responsive {
     padding: 0 2px;
     float: left;
     width: 22.99999%;
 }
 
-
 @media only screen and (max-width: 960px){
-    #graphicDesign .responsive {
+    .responsive {
         width: 30.3333%;
         margin: 6px 0;
     }
 }
 
 @media only screen and (max-width: 700px){
-    #graphicDesign .responsive {
+  .responsive {
         width: 47.99999%;
         margin: 6px 0;
     }
@@ -211,7 +212,6 @@ text-align: center;
 #video {
   background-color: #8c90a1;
 }
-
 
 div#colorbox {
   z-index: 100000;

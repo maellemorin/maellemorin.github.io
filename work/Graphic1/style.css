@@ -1,0 +1,15 @@
+#image1 {
+position:relative;
+left:180px;
+top: 70px;
+}
+
+#image2 {
+  position: relative;
+  top:-220px;
+}
+
+#info {
+  padding-top: 70px;
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+#title {
+  width: 300px;
+}
+#info {
+  text-align: right;
+}
+
+#description {
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: "Lato";
+  color: #2d3a58;
+  font-size: 14px;
+  font-weight:100;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #2d3a58;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#video {
+  float: right;
+  margin-right: 40px;
+  margin-left: 20px;
+  margin-top: 50px;
+
+}
+
+.gallery_2 {
+  text-align: center;
+  }
+
+.images_2 {
+  display: inline-block;
+  float: auto;
+  padding-top: 20px;
+}
+
+#image3 {
+  padding-left: 20px;
+}

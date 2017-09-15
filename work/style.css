@@ -1,0 +1,39 @@
+/*style for each work iframe */
+
+
+#frame {
+  padding-left: 40px;
+}
+#title h1{
+    font-family: "Lato";
+    color: #2d3a58;
+    font-weight:200;
+    letter-spacing: 7px;
+    border: solid;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-color: #7e6576;
+}
+
+#title {
+  width: 250px;
+  margin: auto;
+  text-align: center;
+}
+#info {
+  padding-top: 40px;
+  display: block;
+  float:left;
+}
+#info h2{
+  font-family: "Lato";
+  color: #2d3a58;
+  font-weight:100;
+  letter-spacing: 4px;
+}
+
+#description {
+  font-family: "Lato";
+  color: #2d3a58;
+  letter-spacing: 4px;
+}
