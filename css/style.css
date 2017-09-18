@@ -74,7 +74,10 @@
 #home {
   background-image: url("../img/home.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
 
 #logo {
 display: block;
