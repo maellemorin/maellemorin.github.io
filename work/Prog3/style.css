@@ -1,0 +1,44 @@
+#frame {
+  text-align: center;
+}
+
+#title {
+  width: 350px;
+}
+
+#info {
+  padding-top: 15px;
+}
+
+h3 {
+  font-family: "Lato";
+  color: #2d3a58;
+  font-size: 14px;
+  font-weight:100;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #2d3a58;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#description {
+  letter-spacing: 2px;
+  padding-right: 20px;
+}
+
+.gallery_2 {
+  text-align: center;
+  }
+
+  .images_2 {
+    display: inline-block;
+    float: auto;
+    padding-top: 20px;
+  }

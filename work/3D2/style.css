@@ -1,0 +1,38 @@
+#info {
+  text-align: right;
+}
+
+#image1 {
+  float: right;
+  margin-right: 40px;
+  margin-left: 20px;
+  margin-top: 22px;
+}
+
+#image2 {
+  margin-top: 8px;
+}
+
+#description {
+  letter-spacing: 2px;
+}
+
+.gallery_2 {
+  margin-left: 14px;
+  }
+
+#image3 {
+  margin-top: 10px;
+}
+
+#image6 {
+margin-left: 10px;
+ }
+
+
+
+.images_2 {
+  display: inline-block;
+  float: auto;
+  padding-top: 20px;
+}

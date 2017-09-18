@@ -1,0 +1,49 @@
+#title {
+  width: 300px;
+}
+
+#info {
+  text-align: right;
+}
+h2 {
+  font-size: 20px;
+}
+
+#role {
+  font-family: "Lato";
+  color: #2d3a58;
+  font-weight:100;
+  letter-spacing: 4px;
+}
+
+#video {
+  float: right;
+  margin-right: 40px;
+  margin-left: 20px;
+  margin-top: 90px;
+
+}
+
+#image2 {
+  margin-top: 8px;
+}
+
+#description {
+  letter-spacing: 2px;
+}
+
+.gallery_2 {
+  text-align: center;
+  }
+
+#image3 {
+  margin-top: 10px;
+}
+
+
+
+.images_2 {
+  display: inline-block;
+  float: auto;
+  padding-top: 20px;
+}

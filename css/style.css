@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
     background: #f6e5f2;
@@ -29,7 +32,7 @@
   top: 0px;
   position: absolute;
   z-index: 900;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-weight:100;
   font-size: 20px;
   letter-spacing: 4px;
@@ -75,7 +78,6 @@
 #logo {
 display: block;
 margin: auto;
-
 }
 
 #hi {
@@ -83,16 +85,53 @@ margin: auto;
   margin-top: 50px;
   color: #e7e8e9;
   font-size: 60px;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-weight:100;
 }
 
 #about {
   /*background-color: #aec0cf*/
-  background-color: #869DB1
+  background-color: #869DB1;
 }
 
 
+#about h2 {
+  display: block;
+  text-align: right;
+  margin-right: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight:100;
+  font-size: 40px;
+  color:#e7e8e9;
+  letter-spacing: 4px;
+}
+#about #mePhoto {
+  float:left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#about p {
+  font-family: 'Lato', sans-serif;
+  color:#464f60;
+  letter-spacing: 2px;
+  font-weight:normal;
+  font-size: 19px;
+  text-align: justify;
+  margin-right: 160px;
+}
+
+#back {
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: -70px;
+}
+
+#back:hover {
+  filter:drop-shadow(5px 5px 5px #00050A);
+}
 #work {
   background-color: #856b7b;
 
@@ -104,7 +143,7 @@ margin: auto;
   margin-right: 50px;
   margin-top: -250px;
   margin-bottom: 200px;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-weight:100;
   font-size: 50px;
   color:#e7e8e9;
@@ -115,7 +154,7 @@ margin: auto;
   display: block;
   text-align: right;
   margin-right: 50px;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-weight:100;
   font-size: 40px;
   color:#e7e8e9;
@@ -130,13 +169,26 @@ margin: auto;
   margin-top: -150px;
 }
 
+#threeD h2 {
+  margin-top: -150px;
+}
+
+#photography h2 {
+  margin-top: -50px;
+}
+
+#video h2 {
+  margin-top: -150px;
+}
+
+
 #work_sections {
   text-align: center;
 }
 
 #work_sections a {
   margin-top: 350px;
-  font-family: "Lato";
+  font-family: 'Lato', sans-serif;
   font-weight:100;
   font-size: 35px;
   letter-spacing: 4px;
@@ -168,8 +220,13 @@ text-align: center;
       padding-left: 35px;
   }
 
+  /*#photography .gallery {
+    padding-left: 10px;
+  }*/
+
  div.gallery:hover {
-    border: 1px solid #777;
+   filter:drop-shadow(20px 20px 20px #00050A);
+
 }
 
 div.gallery img {
@@ -197,6 +254,7 @@ div.gallery img {
     }
 }
 
+
 #programming {
   background-color: #9b8c99;
 }
@@ -215,4 +273,6 @@ div.gallery img {
 
 div#colorbox {
   z-index: 100000;
+}
+
 }
