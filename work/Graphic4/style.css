@@ -1,10 +1,12 @@
 #image1 {
   position: relative;
-    left: 70px;
+    float:left;
+    padding-left: 20px;
     top: 60px;
 }
 
 #info {
   text-align: right;
-  padding-left: 150px;
+
+  width: 50%;
 }

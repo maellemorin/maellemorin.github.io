@@ -1,15 +1,17 @@
-#image1 {
-position:relative;
-left:180px;
-top: 70px;
-}
 
-#image2 {
-  position: relative;
-  top:-220px;
+.gallery_2 {
+  text-align: center;
+  float:auto;
+  }
+
+.images_2 {
+  display: inline-block;
+  float: auto;
+  padding-top: 20px;
 }
 
 #info {
-  padding-top: 70px;
+  padding-top: 20px;
   text-align: center;
+  width: 100%;
 }
