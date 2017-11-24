@@ -14,7 +14,7 @@ h3 {
   font-family: "Lato";
   color: #2d3a58;
   font-size: 14px;
-  font-weight:100;
+  font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
@@ -33,17 +33,17 @@ a:hover {
   padding-left: 20px;
   padding-top: 70px;
   padding-bottom: 20px;
-
 }
 
-@media only screen and (min-width: 1680px){
+@media only screen and (min-width: 1680px) {
   #video {
-  padding-right: 215px;
+    padding-right: 215px;
   }
 }
+
 .gallery_2 {
   text-align: center;
-  }
+}
 
 .images_2 {
   display: inline-block;
