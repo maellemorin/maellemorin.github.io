@@ -1,5 +1,5 @@
 # maellemorin.github.io
-# My porfolio website. Contained mostly student projects. 
-# Not adapted for mobile yet
-# might take a while to load some images
-# im sorry i still need to improve it
+#<br><br>My porfolio website. Contained mostly student projects. 
+#<br><br>Not adapted for mobile yet
+#<br><br>might take a while to load some images
+#<br><br>im sorry i still need to improve it
