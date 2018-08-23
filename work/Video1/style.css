@@ -1,13 +1,5 @@
-#title {
-  width: 400px;
-}
-
-#info {
-  width:100%;
-  text-align: center;
-  padding-top: 10px;
-}
-
-#frame {
-  text-align: center;
+#video {
+display: block;
+margin: 0 auto;
+padding-top: 100px;
 }
