@@ -1,13 +1,34 @@
-.gallery_2 {
-  text-align: center;
-}
 
-#info {
-  padding-top: 20px;
-  width: 100%;
-  text-align: center;
-}
+
 
 #image1 {
-  padding-top: 20px;
+    float: right;
+  padding-right: 60px;
+}
+
+#image2 {
+  padding-top: 140px;
+  float:left;
+}
+
+#image3 {
+  padding-top: 60px;
+  float:right;
+  padding-right: 60px;
+}
+
+#image4 {
+  padding-top: 60px;
+  float: left;
+}
+
+#image5 {
+  padding-top: 60px;
+  float: right;
+  padding-right: 60px;
+}
+
+#image6 {
+  float: left;
+  padding-top: 60px;
 }
