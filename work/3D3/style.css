@@ -1,56 +1,45 @@
-#title {
-  width: 300px;
-}
 
-#info {
-  text-align: right;
-}
-h2 {
-  font-size: 20px;
-}
 
-#role {
-  font-family: "Lato";
-  color: #2d3a58;
-  font-weight:100;
-  letter-spacing: 4px;
-}
+
+
 
 #video {
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px;
+
+}
+
+
+#image1 {
   float: right;
-  padding-right: 40px;
-  padding-left: 20px;
-  padding-top: 90px;
-
 }
-
-@media only screen and (min-width: 1680px){
-  #video {
-  padding-right: 225px;
-  }
-}
-
 #image2 {
-  margin-top: 8px;
+  padding-top: 100px;
+  float: left;
 }
 
-#description {
-  letter-spacing: 2px;
-  width: 50%;
+#image3 {
+padding-top: 100px;
+float: right;
+}
+
+#image4 {
+  padding-top: 100px;
+  float: left;
 }
 
 .gallery_2 {
   text-align: center;
+  padding-right: 50px;
   }
 
-#image3 {
-  margin-top: 10px;
-}
+
 
 
 
 .images_2 {
-  display: inline-block;
-  float: auto;
-  padding-top: 20px;
+  /* display: inline-block;
+  float: auto; */
+
 }
