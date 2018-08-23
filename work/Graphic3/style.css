@@ -1,22 +1,29 @@
 .gallery_2 {
   text-align: center;
-  }
-
-#title {
-width: 500px;
 }
-.images_2 {
-  display: inline-block;
-  float: auto;
-  padding-top: 20px;
+
+
+#image1 {
+  padding-top: 60px;
+  padding-right: 60px;
+  float: right;
 }
 
 #image2 {
-  padding-left: 20px;
+  padding-top: 60px;
+  float: left;
 }
 
-#info {
-  padding-top: 0px;
-  text-align: center;
-  width: 100%;
+#image3 {
+  padding-top: 60px;
+  padding-right: 60px;
+  float: right;
+}
+
+#image4 {
+  padding-top: 100px;
+}
+
+#image5 {
+  padding-top: 60px;
 }
