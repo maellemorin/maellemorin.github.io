@@ -75,9 +75,10 @@ body {
 }
 
 #home {
-  background-image: url("../img/home.jpg");
+  /* background-image: url("../img/home.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #3b3542;
 }
 
 
@@ -247,7 +248,7 @@ background-color: #e7e8e9;
 text-align: center;
   }
 
-  
+
 
 
 .all_photos {
