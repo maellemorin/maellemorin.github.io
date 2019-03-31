@@ -135,6 +135,7 @@ p {
 
 #text-block a {
   text-decoration: none;
+  color:black;
 }
 
 #text-block a:visited {
