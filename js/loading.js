@@ -4,11 +4,11 @@ function hideLoader() {
 }
 
 $(window).on('load', function() {
-  setTimeout( function() {
+  // setTimeout( function() {
 
     hideLoader();
     playVideo();
-     ;}, 1000);
+     // ;}, 1000);
 
 
 
