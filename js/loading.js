@@ -1,7 +1,27 @@
+var myVar;
+function myFunction() {
+  myVar = setTimeout(hideLoader, 1000);
+}
+
 function hideLoader() {
     $('#loading').hide();
 }
 
-$(window).ready(hideLoader);
+$(document).ready( function() {
+  setTimeout( function() {
 
-setTimeout(hideLoader, 20 * 1000);
+    hideLoader();
+    playVideo();
+     ;}, 2500);
+
+
+
+
+});
+
+
+function playVideo() {
+  var video = document.getElementById('video_landing');
+  video.autoplay = true;
+  video.load();
+}
