@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600');
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:normal;
+  font-size: 45px;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:normal;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:600;
+  font-size: 16px;
+}
+
+/* remove the scrollbar  */
+ html {
+overflow-y: auto;
+overflow-x: hidden;
+}
+::-webkit-scrollbar {
+width: 0px;
+
+}
+
+
+#hero {
+  height: 100vh;
+}
+
+#hero_img {
+  object-fit: cover;
+  height:100vh;
+  width:100vw;
+  z-index: -100;
+  position: absolute;
+  top:0;
+  left:0;
+
+}
+
+#arrow {
+  position: absolute;
+  top:93%;
+  right:50%;
+  /* left:50%; */
+  text-align: center;
+  z-index: 500;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+p {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+.title-info {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 8px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+#info {
+  padding-top: 10vh;
+  display: flex;
+  margin: 0 auto;
+  width: 1080px;
+  height: 450px;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+#mini-info {
+  width: 40%;
+  /* width:435px; */
+  display: flex;
+  padding-top: 4vh;
+}
+
+#year_what {
+  width:40%;
+}
+
+#what {
+  padding-top: 60px;
+}
+
+#context {
+  width: 60%;
+}
+
+#description {
+  width: 55%;
+  /* width:544px; */
+  float: right;
+}
+
+
+
+#text-block {
+  padding-top: 15px;
+  padding-left: 7vh;
+}
+
+
+#title-block {
+  padding-left: 7vh;
+}
+
+#scrolling-page {
+  width:100%;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+#banner {
+  width: 100%;
+}
+
+#banner img {
+  width: 100%;
+  height: 90vh;
+}
+
+#banner_img {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+}
+
+#logo1 {
+  display: flex;
+  width: 1080px;
+  height: 30vh;
+  margin: 0 auto;
+}
+
+#logo1_img {
+  width: 60%;
+  margin: auto;
+}
+
+#logo2 {
+  display: flex;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+#logo2_img {
+  width: 60%;
+  margin: auto;
+}
+
+#posters {
+  display: flex;
+  margin: 0 auto;
+  height: 85vh;
+  width: 1080px;
+  justify-content: space-around;
+}
+
+#poster1_img {
+  width:40%;
+  object-fit: contain;
+}
+
+#poster2_img {
+  width:40%;
+  object-fit: contain;
+}
+
+#mockup {
+  display: flex;
+  flex-flow: wrap row;
+  width: 1080px;
+  margin: 0 auto;
+  margin-top: 15vh;
+}
+
+#mockup1 {
+  width:100%;
+}
+
+#mockup1_img {
+  width: 50%;
+}
+
+#mockup2 {
+  width:50%;
+}
+
+#mockup2_img {
+  width: 100%;
+  float: right;
+}
+
+#mockup3 {
+  width:50%;
+  padding-top: 70vh;
+}
+
+#mockup3_img {
+  width:120%;
+}
+
+#web {
+  width:1080px;
+  display: flex;
+  margin: 0 auto;
+}
+
+#web_img {
+  width:100%;
+  object-fit: contain;
+}
+
+.website {
+  width:1080px;
+  /* display: flex; */
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.website1 {
+  width:935px;
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.website1_img {
+  width:100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+.website2 {
+  position: relative;
+  width:900px;
+  height: 535px;
+  overflow: scroll;
+  margin:auto;
+  top:50px;
+
+}
+
+
+.website2_img {
+  position: absolute;
+  width: 100%;
+  cursor: url('../img/scroll.png'), auto;
+
+}
+
+.website_iphone {
+  width:500px;
+  /* display: flex; */
+  margin: 0 auto;
+  margin-top: 250px;
+}
+
+.iphone1 {
+  width:250px;
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.iphone1_img {
+  width:100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+.iphone2 {
+  position: relative;
+  width:220px;
+  height: 380px;
+  overflow: scroll;
+  margin:auto;
+  top:65px;
+  cursor: url('../img/scroll.png'), auto;
+}
+
+.iphone2_img {
+  position: absolute;
+  width: 100%;
+
+}
+#video-content {
+  width: 100vw;
+  max-height: 120vh
+}
+#video {
+  width: 700px;
+  margin: 0 auto;
+  margin-top:250px;
+  height: 90vh;
+  text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+  #info {
+    width: 80%;
+  }
+}

@@ -3,266 +3,253 @@
 <meta charset="utf-8">
 
 <head>
-  <link rel="shortcut icon" href="img/smallLogo.png">
+  <link rel="shortcut icon" href="">
   <title>Maelle Morin | Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
-  <link rel="stylesheet" type="text/css" href="css/colorbox.css">
+
   <link href="css/style.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/jquery.easings.min.js"></script>
-  <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-  <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
-  <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+  <link href="navbar.css" rel="stylesheet" type="text/css">
+  <link href="aos/aos.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="aos/aos.js"></script>
+
 
 
 </head>
 
 <body>
 
-  <div id="navbar">
-    <ul>
-      <li><a href="#page1"> HOME</a></li>
-      <li><a href="#page2"> ABOUT</a></li>
-      <li><a href="#page3/slide3-0"> WORK</a></li>
-      <!-- <li><a href="#page4"> SKILLS</a></li> -->
-
-    </ul>
+  <div id=loading>
 
   </div>
+  <div id ="skrollr-body">
 
-  <div id="fullpage">
-    <div class="section" id="home" data-anchor="page1">
-      <img id="logo" width=200px height=200px src="img/logo.png">
-      <h1 id="hi"> hi, I'm Maëlle Morin</h1>
+    <div id="navbar">
+
+      <a href=""><div id="logo" > </div> </a>
+
+      <div id="navbar_list">
+
+
+        <ul>
+          <li><a href="" id="work_nav">Work</a></li>
+          <li><a href="" id="about_nav">About</a></li>
+          <li><a href="" id="contact_nav">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="section" id="about" data-anchor="page2">
-      <h2> Who I am </h2>
 
-      <p id="list_about"> A young female artist <br>
-        A Montrealer<br>
-        A student<br>
-        A photography lover<br>
-        A fashion adddict<br>
-        A believer<br>
-        A self-learner<br>
-        A visual arts enthusiast<br>
-        A traveler<br>
-        A dreamer<br>
-        A hard worker<br>
-        A perfectionist<p>
+    <div id="landingPage">
+
+      <h1 id="welcome">Hello.<br/> I am <br/> Maëlle</h1>
+
+      <div id= "arrow">
+        <a href=""><img alt="downArrow"  width="15px" src="img/arrow.png"/></a>
+      </div>
 
 
-          <!-- <img id="mePhoto" src="img/me.jpg" width="12%" height="12%"> -->
+      <video id="video_landing" autoplay muted loop>
+        <source src="img/background_video_slow2.mp4" type="video/mp4">
+          <source src="img/background_video.ogv" type="videi/ogv">
+          </video>
 
-          <p id="description_about">Hello there, <br> <br>
-
-            I am a young digital artist who has a background in health sciences.
-            I started doing more signifiant artwork when I began my bachelor's degree in Computation arts in 2015.
-            Most of my work is experimental because I am still trying to find my own identity as an artist.
-            I was born in China and adopted by Quebecers. I am a bit undecisive in life and I like to try new things. </p>
-
-          </div>
-          <div class="section" id="work" data-anchor="page3">
-
-            <div class="slide" data-anchor="slide3-0" id="work_sections">
-              <h1> What I do </h1>
-              <a href="#page3/slide3-1">Graphic Design</a>
-              <a href="#page3/slide3-2">Programming</a>
-              <a href="#page3/slide3-3">3D</a>
-              <a href="#page3/slide3-4">Photography</a>
-              <a href="#page3/slide3-5">Video</a> </div>
-
-              <div class="slide" data-anchor="slide3-1" id="graphicDesign">
-
-
-                <h2> Graphic Design</h2>
-
-                <a id="back" href="#page3/slide3-0"> <img src="img/arrow.png" alt="graphic3" width="40" height="40"></a>
-
-                <div class= "all_photos">
-
-
-                  <div class="responsive">
-                    <div class="gallery" id="natmus">
-                      <a class="graphic" id="graphic1" href="work/Graphic1/index.html">
-                        <img src="img/portfolio/graphic1.jpg" alt="graphic1" width="100%" height="100%">
-                      </a>
-                    </div>
-                  </div>
-
-                  <div class="responsive">
-                    <div class="gallery">
-                      <a class="graphic" id="graphic2" href="work/Graphic2/index.html">
-                        <img src="img/portfolio/graphic2.jpg" alt="graphic2" width="250" height="250">
-                      </a>
-                    </div>
-                  </div>
-
-                  <div class="responsive">
-                    <div class="gallery">
-                      <a class="graphic" id="graphic4" href="work/Graphic3/index.html">
-                        <img src="img/portfolio/graphic3.jpg" alt="graphic4" width="250" height="250">
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="slide" data-anchor="slide3-2" id="programming">
-                <h2>Programming</h2>
-                <a id="back" href="#page3/slide3-0"> <img src="img/arrow.png" alt="graphic3" width="40" height="40"></a>
-
-                <div class= "all_photos">
-                  <div class="responsive">
-                    <div class="gallery">
-                      <a class="prog" id="prog1" href="work/Prog1/index.html">
-                        <img src="img/portfolio/prog1.jpg" alt="graphic1" width="250" height="250">
-                      </a>
-                    </div>
-                  </div>
-
-                  <div class="responsive">
-                    <div class="gallery">
-                      <a class="prog" id="prog2" href="work/Prog2/index.html">
-                        <img src="img/portfolio/prog2.jpg" alt="prog2" width="250" height="250">
-                      </a>
-                    </div>
-                  </div>
-
-                  <div class="responsive">
-                    <div class="gallery">
-                      <a class="prog" id="prog2" href="work/Prog3/index.html">
-                        <img src="img/portfolio/prog3.jpg" alt="prog3" width="250" height="250">
-                      </a>
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-              <div class="slide" data-anchor="slide3-3" id="threeD">
-                <h2>3D</h2>
-                <a id="back" href="#page3/slide3-0"> <img src="img/arrow.png" alt="graphic3" width="40" height="40"></a>
-                <div class= "all_photos">
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="D" id="treeD" href="work/3D1/index.html">
-                      <img src="img/portfolio/3D1.1.jpg" alt="3D1" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="D" id="treeD" href="work/3D2/index.html">
-                      <img src="img/portfolio/3D2.jpg" alt="3D2" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="D" id="treeD" href="work/3D3/index.html">
-                      <img src="img/portfolio/3D3.jpg" alt="3D3" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-              </div>
-</div>
-
-
-              <div class="slide" data-anchor="slide3-4" id="photography">
-                <h2>Photography</h2>
-                <a id="back" href="#page3/slide3-0"> <img src="img/arrow.png" alt="graphic3" width="40" height="40"></a>
-                <div class= "all_photos">
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="photo1" href="work/photo/photo1.jpg" width="1100" height="729" title="Minolta XE-5 | 35mm Analogue | 2016">
-                      <img src="img/portfolio/pho1.jpg" alt="3D1" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="photo1" href="work/photo/photo2.jpg" title="Minolta XE-5 | 35mm Analogue | 2016">
-                      <img src="img/portfolio/pho2.jpg" alt="3D1" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="photo1" href="work/photo/photo9.jpg" title="Minolta XE-5 | 35mm Analogue | 2017">
-                      <img src="img/portfolio/pho3.jpg" alt="3D1" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="photo1" href="work/photo/photo8.jpg" title="Minolta XE-5 | 35mm Analogue | 2017">
-                      <img src="img/portfolio/pho4.jpg" alt="3D1" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="photo1" href="work/photo/photo5.jpg" title="Minolta XE-5 | 35mm Analogue | 2017">
-                      <img src="img/portfolio/pho5.jpg" alt="3D1" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="photo1" href="work/photo/photo6.jpg" title="Nikon D5200 | Montreal | 2016">
-                      <img src="img/portfolio/pho6.jpg" alt="3D1" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="photo1" href="work/photo/photo7.jpg" title="Nikon D5200 | Montreal | 2016">
-                      <img src="img/portfolio/pho7.jpg" alt="3D1" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              </div>
-              <div class="slide" data-anchor="slide3-5" id="video">
-                <h2>Video</h2>
-                <a id="back" href="#page3/slide3-0"> <img src="img/arrow.png" alt="graphic3" width="50" height="50"></a>
-                <div class= "all_photos">
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="vid" id="viD" href="work/Video1/index.html">
-                      <img src="img/portfolio/video1.jpg" alt="3D2" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-
-                <div class="responsive">
-                  <div class="gallery">
-                    <a class="vid" id="viD" href="work/Video2/index.html">
-                      <img src="img/portfolio/video2.jpg" alt="3D2" width="250" height="250">
-                    </a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-            <!-- <div class="section" id="skills" data-anchor="page4">Section 3
-          </div> -->
 
         </div>
 
-      </body>
 
-      </html>
+        <div id="scrolling_page">
+
+          <div id="description">
+            <p>I am a digital designer based in Montreal. <br/>
+              Welcome on my portfolio. Take a look! </p>
+            </div>
+
+          </div>
+
+          <div class="work">
+
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" id="section"><span id="section_title">Work</span></div>
+            <div class="project">
+
+              <div class="container_workImg" id="nk_img" data-bottom-top= "transform: translateY(0px)" data-top-bottom="transform:translateY(-200px)">
+                <a href="work/NatmusKammer/index.html">
+                  <img class="work_images"  alt = "nk_image" src="img/nk_image.png"/>
+                  <div class ="nk_overlay_img" >
+
+                    <div class="info">
+                      <hr id="nk_hr">
+                      Branding, Graphic Design</br>& Identity </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="container_workTitle" id="container-title-nk">
+                  <a href="work/NatmusKammer/index.html">
+                    <img class="work_titles" id="nk_title" data-aos="slide-up" data-aos-offset="120" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"
+                    alt = "nk_image" src="img/nk_title.png"/> </div>
+                  </a>
+                </div>
+
+                <div class="project">
+
+
+                  <div class="container_workImg" id="quartz_img" data-bottom-top= "transform: translateY(0px)" data-top-bottom="transform:translateY(-200px)" >
+                    <a href="work/Quartz/index.html">
+                      <img class="work_images"  alt = "nk_image" src="img/quartz_image.png"/>
+                      <div class ="quartz_overlay_img" >
+                        <div class="info">
+                          <hr id="nk_hr">
+                          Graphic Design</br>& Editorial Design </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="container_workTitle">
+                      <a href="work/Quartz/index.html">
+                        <img id="quartz_title" data-aos="slide-up" data-aos-offset="200" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"
+                        class="work_titles" alt = "nk_image" src="img/quartz_title.png"/>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="project">
+
+                    <div class="container_workImg" id="se_img" data-bottom-top= "transform: translateY(0px)" data-top-bottom="transform:translateY(-200px)" >
+                      <a href="work/SpaceExplore/index.html">
+                        <img class="work_images"  alt = "nk_image" src="img/se_image.png"/>
+                        <div class ="se_overlay_img" >
+                          <div class="info">
+                            <hr id="se_hr">
+                            Experimental Game<br/>& Object-Oriented Programming </div>
+                          </div>
+                        </a>
+                      </div>
+
+
+                      <div class="container_workTitle" id="container-title-se">
+                        <a href="work/SpaceExplore/index.html">
+                          <img id="se_title" data-aos="slide-up" data-aos-offset="100" data-aos-anchor-placement="top-bottom" data-aos-duration="2000" class="work_titles" alt = "nk_image" src="img/se_title.png"/>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="project">
+
+                      <div class="container_workImg" id="af_img" data-bottom-top= "transform: translateY(0px)" data-top-bottom="transform:translateY(-200px)">
+                        <a href="work/AlienForest/index.html">
+                          <img class="work_images" alt = "nk_image" src="img/af_image.png"/>
+                          <div class ="af_overlay_img" >
+                            <div class="info">
+                              <hr id="af_hr">
+                              Experimental Game</br>
+                              & 3D Modeling </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="container_workTitle">
+                          <a href="work/AlienForest/index.html">
+                            <img id="af_title" data-aos="slide-up" data-aos-offset="100" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"
+                            class="work_titles" alt = "nk_image" src="img/af_title.png"/></div>
+                          </a>
+                        </div>
+
+                        <div class="project">
+
+                          <div class="container_workImg" id="infini_img" data-bottom-top= "transform: translateY(0px)" data-top-bottom="transform:translateY(-200px)">
+                            <a href="work/Infinitree/index.html">
+                              <img class="work_images" alt = "nk_image" src="img/infini_image.png"/>
+                              <div class ="infini_overlay_img">
+                                <div class="info">
+                                  <hr id="infini_hr">
+                                  Installation & </br>Virtual Reality </div>
+                                </div>
+                              </a>
+                            </div>
+
+
+                            <div class="container_workTitle" id="container-title-infini">
+                              <a href="work/Infinitree/index.html">
+                              <img class="work_titles" id="infini_title" data-aos="slide-up" data-aos-offset="100" data-aos-anchor-placement="top-bottom" data-aos-duration="2000"
+                              alt = "nk_image" src="img/infini_title.png"/></a></div>
+                            </div>
+
+
+
+
+                            <div id="about">
+                              <div id="section"><span id="section_title_about">About </span></div>
+
+                              <div data-aos="slide-up" data-aos-offset="300" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" id="about-text">
+                                <p>
+                                  I was born in the late 90s practically with a computer in front of me.
+                                  I always used the computer and saw it as an important technology in our modern world.
+                                  Using computers to join art and code is what I am fascinated about. I am a mix of <span class="about_special" style="color:#ED5C72"> design</span>,  <span class="about_special" style="color:#B09BF5">code</span>, and <span class="about_special" style="color:#52DDDD">art installation. </span>
+                                  I live for immersive and interactive experiences.
+                                  <br/><br/>
+                                  If I can make you as excited as I am when I try an interactive experience, my job is done.
+                                </p>
+
+                                <div id="cv">
+                                  <div id= "arrow-cv">
+                                    <img alt="downArrow"  width="15px" src="img/arrow.png"/>
+                                  </div>
+                                  <a href="img/CV.pdf" id="cv-text" target="_blank"><p > CV </p></a>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div id="contact">
+
+                            <div id="cta">
+                              <p id="talk"> You like what you see? <br/> Let's talk! </p>
+
+                              <a data-aos="slide-up" data-aos-anchor-placement="top-middle" href="mailto: maellemorin.design@gmail.com" id="email"> <p> maellemorin.design@gmail.com </p></a>
+
+                            </div>
+                          </div>
+
+                          <div id="footer">
+
+                            <div id="line"> </div>
+
+                            <div id= "bottom-line">
+                            <div id="copyright"><p> Maelle Morin &copy</p></div>
+
+                              <div id="touch">
+
+                                <a href="mailto: maellemorin.design@gmail.com" id="link-touch">
+                                   Let's get in touch
+                                 </a>
+
+                               </div>
+
+                              <div id="socials">
+
+                                <a href="https://www.instagram.com/maellemorin/" target="_blank"><img width="27px" src="img/socials-18.png"></a>
+                                <a href="https://www.linkedin.com/in/ma%C3%ABlle-morin-30905a172/" target="_blank"><img width="27px" src="img/socials-19.png"></a>
+                                <a href="https://www.facebook.com/MaelleMorin.Photography/" target="_blank"><img width="27px" src="img/socials-20.png"></a>
+
+                              </div>
+                          </div>
+                        </div>
+                        </div>
+
+
+                        <script type="text/javascript" src="js/skrollr.min.js"></script>
+
+                      </div>
+
+
+
+                    </body>
+                    <script type="text/javascript" src="js/script.js">  </script>
+                    <script type="text/javascript" src="js/loading.js">  </script>
+
+
+
+
+
+                    </html>

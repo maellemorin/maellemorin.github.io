@@ -1,0 +1,70 @@
+
+#other-projects {
+  width:90vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+#previous {
+  width:50%;
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+}
+
+#arrow-prev-img {
+  transform: rotate(90deg) translateX(3px) translateY(-10px);
+}
+
+#arrow-prev {
+  width:10%;
+}
+
+#previous-text {
+  width:90%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#previous-text a {
+  color:black;
+  text-decoration: none;
+}
+
+#previous-text a:hover {
+  background: -webkit-linear-gradient(45deg, #ED5C72, #B09BF5, #6DD1B9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#next {
+  width:50%;
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: right;
+}
+
+#arrow-next-img {
+  transform: rotate(-90deg) translateX(-3px) translateY(-10px);
+}
+
+#arrow-next {
+  width:10%;
+}
+
+#next-text {
+  width:90%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#next-text a {
+  color:black;
+  text-decoration: none;
+}
+
+#next-text a:hover {
+  background: -webkit-linear-gradient(45deg, #ED5C72, #B09BF5, #6DD1B9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
