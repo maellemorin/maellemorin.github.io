@@ -681,9 +681,7 @@ left:0;
     width:50px;
     z-index: 100;
     text-decoration: none;
-    background: -webkit-linear-gradient(45deg, #ED5C72, #B09BF5, #16F2F2);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+  color:black;
 }
 
 #cv-text:hover {
