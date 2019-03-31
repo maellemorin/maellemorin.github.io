@@ -3,7 +3,7 @@ function hideLoader() {
     $('#loading').hide();
 }
 
-jQuery(window).load( function() {
+$(window).on('load', function() {
   setTimeout( function() {
 
     hideLoader();
