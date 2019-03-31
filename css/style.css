@@ -52,7 +52,10 @@ top:0;
   line-height: 140px;
   line-height: 11vw;
   text-align: left;
-  top: 30%; left: 60%; bottom: 0; right: 0;
+  /* top: 30%; */
+  top: 30vh;
+  left: 60%;
+  /* bottom: 0; right: 0; */
 
 }
 
