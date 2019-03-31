@@ -135,7 +135,7 @@ width: 0px;
 
 #arrow {
   position: absolute;
-  top:93%;
+  top:93vh;
   right:50%;
   /* left:50%; */
   text-align: center;
