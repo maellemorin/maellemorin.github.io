@@ -1,7 +1,3 @@
-var myVar;
-function myFunction() {
-  myVar = setTimeout(hideLoader, 1000);
-}
 
 function hideLoader() {
     $('#loading').hide();
