@@ -8,11 +8,11 @@ function hideLoader() {
 }
 
 $(document).ready( function() {
-  setTimeout( function() {
+  // setTimeout( function() {
 
     hideLoader();
     playVideo();
-     ;}, 2500);
+     // ;}, 2500);
 
 
 
