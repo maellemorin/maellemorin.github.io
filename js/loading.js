@@ -3,12 +3,12 @@ function hideLoader() {
     $('#loading').hide();
 }
 
-$(document).ready( function() {
-  // setTimeout( function() {
+jQuery(window).load( function() {
+  setTimeout( function() {
 
     hideLoader();
     playVideo();
-     // ;}, 2500);
+     ;}, 1000);
 
 
 
