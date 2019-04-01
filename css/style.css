@@ -588,7 +588,8 @@ left:10vw;
   font-size: 32px;
   line-height: 40px;
   margin-right: 40px;
-  margin-top: 60px;
+  margin-top: 10vh;
+  /* margin-top: 60px; */
 }
 
 
