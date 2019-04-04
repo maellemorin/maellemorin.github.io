@@ -135,6 +135,17 @@ p {
   padding-left: 7vh;
 }
 
+#text-block a {
+  text-decoration: none;
+  color: black;
+}
+
+#text-block a:hover {
+  text-decoration: none;
+  background: -webkit-linear-gradient(45deg, #ED5C72, #B09BF5,#16F2F2);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
 
 #title-block {
   padding-left: 7vh;
