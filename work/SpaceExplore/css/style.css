@@ -104,14 +104,14 @@ h3 {
 }
 
 /* remove the scrollbar  */
- html {
+ /* html {
 overflow-y: auto;
 overflow-x: hidden;
 }
 ::-webkit-scrollbar {
 width: 0px;
 
-}
+} */
 
 #hero {
   height: 100vh;
@@ -284,6 +284,7 @@ p {
   width: 80%;
   margin: auto;
 }
+
 
 #mockup2 {
   width:100%;
