@@ -582,6 +582,29 @@ left:10vw;
 }
 
 #about-text {
+  display:flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  /* margin-top: 60px; */
+}
+
+#skills {
+width:35%;
+float:left;
+font-family: 'Josefin Sans', sans-serif;
+  margin-top: 15vh;
+  font-size:16px;
+  line-height: 18px;
+
+}
+
+#list {
+  padding-left: 10vw;
+  font-weight: 400;
+
+}
+
+#about-90 {
   float:right;
   width:55%;
   font-family: 'Josefin Sans', sans-serif;
@@ -589,9 +612,7 @@ left:10vw;
   line-height: 40px;
   margin-right: 40px;
   margin-top: 10vh;
-  /* margin-top: 60px; */
 }
-
 
 
 .about_special {

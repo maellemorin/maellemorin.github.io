@@ -285,7 +285,7 @@ p {
 }
 
 #mockup1_img {
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
@@ -297,7 +297,7 @@ p {
 }
 
 #mockup2_img {
-  width: 80%;
+  width: 75%;
 
 }
 
@@ -307,7 +307,7 @@ p {
 }
 
 #mockup3_img {
-  width:80%;
+  width:35%;
   margin-top: 80px;
   float:left;
 }
@@ -319,8 +319,8 @@ width:100%;
 }
 
 #mockup4_img {
-  width:80%;
-  margin-top: 80px;
+  width:50%;
+  margin-top: -100px;
   float:right;
 }
 
@@ -331,36 +331,37 @@ margin-top: 50px;
 }
 
 #mockup5_img {
-  width:60%;
-  margin-top: 80px;
+  width:80%;
+  margin-top: 60px;
   float:left;
 }
 
 #mockup6 {
-width:30%;
+width:100%;
 margin: 0 auto;
 }
 
 #mockup6_img {
-  width:100%;
-  margin-top: 80px;
+  width:60%;
+  margin-top: 90px;
+  float:right;
 }
 
 #mockup7 {
-  width:50%;
+  width:100%;
   margin: 0 auto;
 
 }
 
 #mockup7_img {
-  width:100%;
-  margin-top: 380px;
+  width:80%;
+  margin-top: 80px;
 }
 
 #mockup8 {
   width:100%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 80px;
 }
 
