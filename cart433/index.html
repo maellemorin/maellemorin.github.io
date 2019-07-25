@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!-- This is the answer for question5 of the Assignment 3 -->
+<html lang = "en">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="content">
+
+    <div  id="head">
+      <p id="title">  </p>
+
+    </div>
+    <div id="aperture">
+
+
+      <div id="aperture_images">
+        <p id="instructions"> <br/><br/><br/>Hover over some text to find tips and descriptions </p>
+        <img id="scale_image" src="image/aperture_scale.png" alt="scale" width=1200/>
+
+        <img id="aperture_background" src="image/aperture.png" al="aperture" width=1200/>
+
+      </div>
+
+
+
+      <div class="tooltip_title"> &nbsp
+        <span class="tooltiptext_title yellow_boxes1" id="test_1"> The aperture refers to the opening of a lens. This is where the light pass through. <br/>If the opening is wide, more light pass through. <br/><br/> The aperture is measured in f/stops <br/>small f/stop number = large aperture.<br/> large f/stop number = small aperture</span>
+      </div>
+
+      <div id="slidecontainer1">
+        <input type="range" min="0.0" max="10.0" value="5" step="0.1" class="slider_dark" id="myAperture_field">
+
+        <div class="tooltip1">
+          <img id="subtitle1" src="image/minus.png" alt="depth of field" width=25/>
+          <span class="tooltiptext1 yellow_boxes1"> The bigger the aperture, the smaller the depth of field. <br/> Your background will be blurry.<br/><br/>Tip: A small depth of field is good for portrait photography  </span>
+        </div>
+
+        <div class="tooltip2">
+          <img id="subtitle1" src="image/plus.png" alt="depth of field" width=21/>
+          <span class="tooltiptext2 yellow_boxes1"> The smaller the aperture, the bigger the depth of field. <br/> Your background will be sharp.<br/><br/>Tip: A large depth of field is good for landscape photography</span>
+        </div>
+
+        <div class="tooltip3">
+          <img id="subtitle1" src="image/depth_field.png" alt="depth of field" width=120/>
+          <span class="tooltiptext1 yellow_boxes1"> The aperture influences the depth of field. The depth of field is the amount of your image that is acceptably sharp. </span>
+        </div>
+
+
+
+        <input type="range" min="0.0" max="200.0" value="100" step="1" class="slider_dark" id="myAperture_bright">
+
+        <div class="tooltip1">
+          <img id="subtitle1" src="image/plus.png" alt="depth of field" width=21/>
+          <span class="tooltiptext1 yellow_boxes1"> The smaller the f/stop, the larger the opening in the lens. <br/> More light will pass through the lens and your photo will be brighter </span>
+        </div>
+
+        <div class="tooltip2">
+          <img id="subtitle1" src="image/minus.png" alt="depth of field" width=25/>
+          <span class="tooltiptext2 yellow_boxes1"> The larger the f/stop, the smaller the opening in the lens. <br/> Less light will pass through the lens and your photo will be darker </span>
+        </div>
+
+
+        <div class="tooltip3">
+          <img id="subtitle1" src="image/brightness.png" alt="depth of field" width=120/>
+          <span class="tooltiptext1 yellow_boxes1"> The aperture influences the brightness of your image.</span>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div id="speed">
+
+      <div id="speed_images">
+        <img id="scale_speed" src="image/scale_speed.png" alt="scale" width=1200/>
+
+        <img id="speed_background" src="image/speed.png" al="aperture" width=1200/>
+
+        <div class="flowers">
+
+          <img id="flower" src="image/flower_60.png" al="aperture" width=120/>
+        </div>
+      </div>
+
+      <div class="tooltip_title2"> &nbsp
+        <span class="tooltiptext_title2"> The shutter speed is the amount of time your camera will let light in. <br/><br/> Shutter speed is measured in fraction of a second. For instance 1/4 means a quarter
+          of a second. When the shutter speed is longer than a second, double quotations are added after the number</span>
+        </div>
+
+        <div id="slidecontainer1">
+          <input type="range" min="1.0" max="9.0" value="4.5" step="1" class="slider_light" id="mySpeed_blur">
+
+          <div class="tooltip1">
+            <img id="subtitle1" src="image/plus_light.png" alt="depth of field" width=21/>
+            <span class="tooltiptext1"> The longer the shutter speed, the more motion blur you will have in your image. Moving objects will appeared blurry. <br/><br/>
+              Tip: If you use a shutter speed slower than 1/60 second, use a tripod.  </span>
+            </div>
+
+            <div class="tooltip2">
+              <img id="subtitle1" src="image/minus_light.png" alt="depth of field" width=25/>
+              <span class="tooltiptext2"> The faster the shutter speed, the less motion blur you will have in your image. Moving objects will appeared sharp. <br/><br/>
+                Tip: If your image is blurry and you don't want that effect, choose a faster shutter speed  </span>
+              </div>
+
+              <div class="tooltip3">
+                <img id="subtitle1" src="image/blur.png" alt="depth of field" width=120/>
+                <span class="tooltiptext1">The shutter speed influences the motion blur of your images. Motion blur is the representation of movements. <br/> <br/>
+                  if your shutter speed is long, moving objects will be blurry. <br/>If your shutter speed is fast, moving objects will be frozen in their movements and these objects will appeared sharp.  </span>
+                </div>
+
+
+
+                <input type="range" min="0.0" max="200.0" value="100" step="1" class="slider_light" id="mySpeed_bright">
+
+                <div class="tooltip1">
+                  <img id="subtitle1" src="image/plus_light.png" alt="depth of field" width=21/>
+                  <span class="tooltiptext1"> A slower shutter speed lets more light pass through the lens. Your image will be brighter </span>
+                </div>
+
+                <div class="tooltip2">
+                  <img id="subtitle1" src="image/minus_light.png" alt="depth of field" width=25/>
+                  <span class="tooltiptext2"> A faster shutter speed lets less light pass through the lens. Your image will be darker </span>
+                </div>
+
+
+                <div class="tooltip3">
+                  <img id="subtitle1" src="image/brightness_light.png" alt="depth of field" width=120/>
+                  <span class="tooltiptext1"> The shutter speed influences the brightness of your image. </span>
+                </div>
+              </div>
+
+            </div>
+
+            <div id="iso">
+
+              <div id="iso_images">
+                <img id="scale_iso" src="image/iso_scale.png" alt="scale" width=1200/>
+                <img id="iso_background" src="image/iso.png" alt="aperture" width=1200/>
+                <img id="noise_image" src="image/noise_image2.png" alt="noise_image" width=1200/>
+              </div>
+
+              <div class="tooltip_title"> &nbsp
+                <span class="tooltiptext_title"> The ISO measures the sensitivity of the image sensor to light. <br/><br/>The lower the ISO value, the less sensitive the sensor is. The higher the ISO value, the more sensitive the sensor is. </span>
+              </div>
+
+              <div id="slidecontainer1">
+                <input type="range" min="0.0" max="0.8" value="0.4" step="0.01" class="slider_dark" id="myIso_noise">
+
+                <div class="tooltip1">
+                  <img id="subtitle1" src="image/minus.png" alt="depth of field" width=25/>
+                  <span class="tooltiptext1"> When the ISO value is low, there will be less noise in your image because the sensor is less sensitive to light. Your image will be sharp </span>
+                </div>
+
+                <div class="tooltip2">
+                  <img id="subtitle1" src="image/plus.png" alt="depth of field" width=21/>
+                  <span class="tooltiptext2"> When the ISO value is high, there will be more noise in your image because the sensor is more sensitive to light. Your image will be noisy or grainy</span>
+                </div>
+
+                <div class="tooltip3">
+                  <img id="subtitle1" src="image/noise.png" alt="noise" width=120/>
+                  <span class="tooltiptext1"> The ISO influences the noise in your image </span>
+                </div>
+
+                <input type="range" min="0" max="200.0" value="100" step="1" class="slider_dark" id="myIso_bright">
+
+                <div class="tooltip1">
+                  <img id="subtitle1" src="image/minus.png" alt="depth of field" width=25/>
+                  <span class="tooltiptext1"> The lower the ISO value, the darker your image will be <br/><br/>
+                    Tip: A low ISO value is good for day light photography</span>
+                  </div>
+
+                  <div class="tooltip2">
+                    <img id="subtitle1" src="image/plus.png" alt="depth of field" width=21/>
+                    <span class="tooltiptext2"> The higher the ISO value, the brighter your image will be <br/><br/>
+                      Tip: A higher ISO value is good for night photography  </span>
+                    </div>
+
+
+                    <div class="tooltip3">
+                      <img id="subtitle1" src="image/brightness.png" alt="depth of field" width=120/>
+                      <span class="tooltiptext1"> The ISO influences the brightness of your image<br/><br/>
+                        Tip: If your image is too dark and you don't want to change the aperture and shutter speed values, choose a higher ISO  </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p> <strong>Sources: </strong> <br/>
+                    https://photographylife.com<br/>https://digital-photography-school.com</p>
+                    <script type="text/javascript" src="slider.js">  </script>
+
+                  </body>
+
+
+                  </html>
