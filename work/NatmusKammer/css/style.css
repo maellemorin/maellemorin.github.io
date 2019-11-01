@@ -176,7 +176,7 @@ p {
 #logo1 {
   display: flex;
   width: 1080px;
-  height: 30vh;
+  height: 45vh;
   margin: 0 auto;
 }
 
@@ -188,6 +188,7 @@ p {
 #logo2 {
   display: flex;
   width: 1080px;
+    padding-bottom:  10vh;
   margin: 0 auto;
 }
 
