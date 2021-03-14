@@ -229,6 +229,9 @@ p {
 
 
 
+input[type="range"] {
+  outline: none;
+}
 
 
 .slider_dark {
