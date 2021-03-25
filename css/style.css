@@ -318,6 +318,139 @@ left: 10vw;
   border: none;
 }
 
+
+/*-----------------------Eg4------------------------*/
+
+#eg4_img {
+  top: 25vh;
+  left: 40vw;
+  width:55%;
+  
+  }
+  
+  #eg4_img::after {
+    content: '';
+      position: absolute;
+      width:100%;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      background-image: linear-gradient(45deg, #ED5C72, #B09BF5, #16F2F2);
+      clip-path: inset (20rem);
+        -webkit-clip-path: inset(20rem);
+      opacity: 1;
+      transition: all .8s cubic-bezier(.42,0,0,1);
+      z-index: -200;
+  }
+  
+  .eg4_overlay_img {
+    position: absolute;
+    top: 6%;
+    bottom: 0;
+    left: 6%;
+    right: 0;
+    height: 87%;
+    width: 88%;
+    opacity: 0;
+    transition: all .5s ease;
+    background-color: rgba(0,0,0, 0.7);
+  }
+  
+  
+  #eg4_img:hover .eg4_overlay_img {
+  opacity: 1;
+  }
+  
+  #eg4_img:hover:after {
+      opacity: 1;
+      clip-path: inset(0);
+      -webkit-clip-path: inset(0);
+  }
+  
+  
+  #eg4_title {
+  top: 70vh;
+  left: 40vw;
+  position:relative;
+  width: 90%;
+  }
+
+
+  #eg4_hr {
+    width:60%;
+    height: 3px;
+    margin-left: 0;
+    display: block;
+    background-color: #6DD1B9;
+    border: none;
+  }
+
+  /*-----------------------GRAY------------------------*/
+
+#gray_img {
+  left: 10vw;
+  top: 35vh;
+  width: 55%;
+  }
+  
+  #gray_img::after {
+      content: '';
+      position: absolute;
+      width:100%;
+      left: 0px;
+      top: 2vh;
+      right: 0px;
+      bottom: 0px;
+      clip-path: inset (6rem);
+        -webkit-clip-path: inset(6rem);
+      background-image: linear-gradient(45deg, #ED5C72, #B09BF5, #16F2F2);
+      opacity: 1;
+      transition: all .8s cubic-bezier(.42,0,0,1);
+      z-index: -200;
+  }
+  
+  #gray_img:hover:after {
+      /* opacity: 1; */
+      clip-path: inset(0);
+      -webkit-clip-path: inset(0);
+  }
+  
+  
+  .gray_overlay_img {
+    position: absolute;
+    top:8%;
+    bottom: 0;
+    left:5%;
+    right: 0;
+    height:83%;
+    width: 90%;
+    opacity: 0;
+    transition: all .5s ease;
+    background-color: rgba(0,0,0, 0.7);
+  }
+  
+  
+  #gray_img:hover .gray_overlay_img {
+    opacity: 1;
+  }
+
+  #gray_title {
+    position: relative;
+    top: 58vh;
+    left: 43vw;
+    width: 90%;
+  }
+  
+  #gray_hr {
+    width:60%;
+    height: 3px;
+    margin-left: 0;
+    display: block;
+    background-color: #6DD1B9;
+    border: none;
+  }
+  
 /*-----------------------Quartz------------------------*/
 
 #quartz_img {
@@ -376,73 +509,11 @@ width: 90%;
 }
 
 
-/*-----------------------Space Explore------------------------*/
-#se_img {
-top:25vh;
-left:10vw;
-}
-
-#se_img::after {
-  content: '';
-    position: absolute;
-    width:100%;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-image: linear-gradient(45deg, #ED5C72, #B09BF5, #16F2F2);
-    clip-path: inset (3rem);
-      -webkit-clip-path: inset(3rem);
-    opacity: 1;
-    transition: all .8s cubic-bezier(.42,0,0,1);
-    z-index: -200;
-}
-
-#se_img:hover:after {
-    /* opacity: 1; */
-    clip-path: inset (0);
-      -webkit-clip-path: inset(0);
-}
-
-.se_overlay_img {
-  position: absolute;
-  top: 8%;
-  bottom: 0;
-  left: 5%;
-  right: 0;
-  height: 84%;
-  width: 90%;
-  opacity: 0;
-  transition: all .5s ease-in-out;
-  background-color: rgba(0,0,0, 0.6);
-}
-
-
-#se_img:hover .se_overlay_img {
-  opacity: 1;
-}
-#container-title-se {
-  top: 40vh;
-  left:30vw;
-}
-#se_title {
-  position: relative;
-
-  width:80%;
-}
-#se_hr {
-  width:40%;
-  height: 3px;
-  margin-left: 0;
-  display: block;
-  background-color: #6DD1B9;
-  border: none;
-}
-
 /*-----------------------Alien Forest------------------------*/
 
 #af_img {
-  left: 50vw;
+  top:10vh;
+  left:10vw;
   width:30%;
 }
 
@@ -486,8 +557,8 @@ left:10vw;
 
 #af_title {
   position: relative;
-  top:50vh;
-  left:32vw;
+  top:55vh;
+  left:25vw;
   width:90%;
 }
 
@@ -504,7 +575,7 @@ left:10vw;
 
 #infini_img {
   top:30vh;
-  left:10vw;
+  left:50vw;
 }
 
 
