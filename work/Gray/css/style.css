@@ -135,19 +135,29 @@ width: 0px;
 
 #hero {
   height: 100vh;
-  background-color: #092D38;
+  background-image: rgb(9, 45, 56);
 
 }
 
 #hero_img {
-  object-fit: contain;
-  height:90vh;
+  object-fit: cover;
+  height:100vh;
   width:100vw;
   z-index: 1;
   position: absolute;
-  top:35px;
-  left:0;
+  /* left:0;
+  filter:brightness(0.8); */
 
+}
+
+#hero::after {
+  display: block;
+  position: relative;
+  z-index: 2;
+  background-image: linear-gradient(to bottom,rgba(20, 24, 26, 0.4) 0%, transparent 20%, transparent 70%, rgb(20, 24, 26, .5) 100%);
+  height: 100vh;
+  width: 100vw;
+  content: '';
 }
 
 #arrow {
@@ -271,18 +281,14 @@ p {
 #banner {
   width: 100%;
   text-align: center;
-  background-color: #E4E4E4;
+  /* background-color: #E4E4E4; */
 }
 
-#banner img {
-  width: 100%;
-  height: 80vh;
-}
 
 #banner_img {
   position: relative;
   object-fit: cover;
-  width: 100%;
+  width: 80%;
 }
 
 .panel-1  {
@@ -537,7 +543,11 @@ p {
 .website {
   width: 100%;
   text-align: center;
-  margin-top: -250px;
+  margin-top: -300px;
+}
+
+.website .website-mockup:first-of-type img {
+  width: 70%;
 }
 .website img {
   width: 80%;
