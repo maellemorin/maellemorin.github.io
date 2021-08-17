@@ -450,12 +450,69 @@ left: 10vw;
     background-color: #6DD1B9;
     border: none;
   }
+
+  /*-----------------------GAIAM------------------------*/
+
+#gaiam_img {
+  top: 20vh;
+  left: 50vw;
+  width:50%;
+  
+  }
+  
+  #gaiam_img::after {
+    content: '';
+      position: absolute;
+      width:100%;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      background-image: linear-gradient(45deg, #ED5C72, #B09BF5, #16F2F2);
+      clip-path: inset (4rem);
+        -webkit-clip-path: inset(4rem);
+      opacity: 1;
+      transition: all .8s cubic-bezier(.42,0,0,1);
+      z-index: -200;
+  }
+  
+  .gaiam_overlay_img {
+    position: absolute;
+    top: 8%;
+    bottom: 0;
+    left: 6%;
+    right: 0;
+    height: 82%;
+    width: 88%;
+    opacity: 0;
+    transition: all .5s ease;
+    background-color: rgba(0,0,0, 0.7);
+  }
+  
+  
+  #gaiam_img:hover .gaiam_overlay_img {
+  opacity: 1;
+  }
+  
+  #gaiam_img:hover:after {
+      opacity: 1;
+      clip-path: inset(0);
+      -webkit-clip-path: inset(0);
+  }
+  
+  
+  #gaiam_title {
+  top: 40vh;
+  left: 30vw;
+  position:relative;
+  width: 90%;
+  }
   
 /*-----------------------Quartz------------------------*/
 
 #quartz_img {
-top: 30vh;
-left: 50vw;
+top: 10vh;
+left: 10vw;
 width:45%;
 
 }
@@ -502,8 +559,8 @@ opacity: 1;
 
 
 #quartz_title {
-top: 50vh;
-left: 30vw;
+top: 35vh;
+left: 35vw;
 position:relative;
 width: 90%;
 }
@@ -512,8 +569,8 @@ width: 90%;
 /*-----------------------Alien Forest------------------------*/
 
 #af_img {
-  top:10vh;
-  left:10vw;
+  top:5vh;
+  left:55vw;
   width:30%;
 }
 
@@ -558,7 +615,7 @@ width: 90%;
 #af_title {
   position: relative;
   top:55vh;
-  left:25vw;
+  left:40vw;
   width:90%;
 }
 
@@ -575,7 +632,7 @@ width: 90%;
 
 #infini_img {
   top:30vh;
-  left:50vw;
+  left:10vw;
 }
 
 
@@ -618,7 +675,7 @@ width: 90%;
   opacity: 1;
 }
 #container-title-infini {
-  top:40vh;
+  top:45vh;
   left: 35vw;
 }
 #infini_title {
